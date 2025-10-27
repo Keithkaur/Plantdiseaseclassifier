@@ -54,13 +54,13 @@ The model is trained on thousands of labeled leaf images, learning visual patter
 ---
 
 ## 📁 Project Structure
-CNN_plantDisease_classifier/
+CNN_plantDisease_classifier/  
 │
--├── CNN_plantDisease_classifier.ipynb # Main Jupyter notebook
--├── dataset/ # Contains PlantVillage images
--├── models/ # Saved trained model files
--├── results/ # Training results and plots
--└── README.md # Project documentation
+├── CNN_plantDisease_classifier.ipynb # Main Jupyter notebook  
+├── dataset/ # Contains PlantVillage images  
+├── models/ # Saved trained model files  
+├── results/ # Training results and plots  
+└── README.md # Project documentation  
 
 
 ---
