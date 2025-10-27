@@ -95,28 +95,31 @@ plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
 plt.legend()
 plt.show()
 
+```
+
 ## 🧭 How to Run
 
 ### 🌀 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/<your-username>/Plant-Disease-Classifier-Using-CNN.git
 cd Plant-Disease-Classifier-Using-CNN
+```
+
 ⚙️ 2️⃣ Set Up Environment
 Install all required dependencies using:
-
-bash
-Copy code
+```
 pip install -r requirements.txt
+```
+
 🚀 3️⃣ Run the Notebook
 Open the Jupyter Notebook or VSCode and execute:
-
-bash
-Copy code
+```
 jupyter notebook CNN_plantDisease_classifier.ipynb
+```
+
 💡 Tip:
 Make sure you have Python 3.8+ and Jupyter Notebook installed.
 You can install Jupyter using:
-
-bash
-Copy code
+```
 pip install notebook
+```
