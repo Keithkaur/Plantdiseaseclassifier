@@ -56,11 +56,11 @@ The model is trained on thousands of labeled leaf images, learning visual patter
 ## 📁 Project Structure
 CNN_plantDisease_classifier/
 │
-├── CNN_plantDisease_classifier.ipynb # Main Jupyter notebook
-├── dataset/ # Contains PlantVillage images
-├── models/ # Saved trained model files
-├── results/ # Training results and plots
-└── README.md # Project documentation
+-├── CNN_plantDisease_classifier.ipynb # Main Jupyter notebook
+-├── dataset/ # Contains PlantVillage images
+-├── models/ # Saved trained model files
+-├── results/ # Training results and plots
+-└── README.md # Project documentation
 
 
 ---
@@ -95,3 +95,16 @@ plt.plot(history.history['accuracy'], label='Training Accuracy')
 plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
 plt.legend()
 plt.show()
+
+## 🧭 How to Run
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/Plant-Disease-Classifier-Using-CNN.git
+cd Plant-Disease-Classifier-Using-CNN
+
+### 2️⃣ Set Up Environment
+``` pip install -r requirements.txt
+
+### 3️⃣ Run the Notebook
+``` jupyter notebook CNN_plantDisease_classifier.ipynb
